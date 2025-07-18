@@ -8,6 +8,8 @@ public class mainHamburgeria {
         lanche01 xtudo = new lanche01() {
             @Override
             public void escolherHamburger() {
+//Aqui, a interface Cardapio define que todas as classes que a implementam devem ter o método mostrarOpcoes(). 
+    //Quando você chama esse método num objeto, vai aparecer o que a implementação imprime, mas a interface em si não aparece no print.
 
             }
         };
