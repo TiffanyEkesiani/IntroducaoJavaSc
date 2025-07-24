@@ -1,4 +1,4 @@
-package aula005;
+package aula005.agenda;
 
 public class Contato {
     // Atributos privados (encapsulamento)
@@ -7,6 +7,8 @@ public class Contato {
     private String email;
 
     // Construtor
+        // 1. Construtor: cria o objeto e define os dados iniciais
+        // 2. 'this' se refere ao atributo da classe
     public Contato(String nome, String telefone, String email) {
         this.nome = nome;
         this.telefone = telefone;
